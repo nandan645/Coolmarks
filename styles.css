@@ -15,7 +15,12 @@ header {
   align-items: center;
   padding: 1.5rem var(--horizontal-padding);
   background-color: white;
+
+  position: sticky;   /* make it stick */
+  top: 0;             /* stick to top */
+  z-index: 1000;      /* keep above other elements */
 }
+
 
 .logo img {
   height: 30px;
