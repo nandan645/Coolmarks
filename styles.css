@@ -216,7 +216,7 @@ footer {
 .section-divider {
   border: none;
   height: 2px;
-  background-color: #792E36; /* match your theme color */
+  background-color: #ffffff; /* match your theme color */
   margin: 2rem var(--horizontal-padding); /* same horizontal padding as content */
   opacity: 0.2; /* softer look */
   border-radius: 2px; /* subtle rounded edges */
