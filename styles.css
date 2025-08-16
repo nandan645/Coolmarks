@@ -254,3 +254,16 @@ footer {
     grid-template-columns: repeat(2, 1fr); /* always 2 columns */
   }
 }
+
+footer p {
+  margin: 0.3rem 0;
+}
+
+footer a {
+  color: #792E36;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
