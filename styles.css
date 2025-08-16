@@ -243,3 +243,9 @@ footer {
   font-size: 1rem;
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .bookmark-grid {
+    grid-template-columns: repeat(2, 1fr); /* always 2 columns */
+  }
+}
